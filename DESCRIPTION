@@ -10,6 +10,8 @@ Description: Causal forest learned (cross-fitted) with training and holdout data
     This is repeated a specified number of times and the results are averaged across folds.
 License: CC
 Encoding: UTF-8
-Imports: stats, foreach, grf
+Imports: stats, 
+    foreach, 
+    grf
 LazyData: true
 RoxygenNote: 7.1.2
