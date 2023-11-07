@@ -1,9 +1,9 @@
 # CFCF
 Cross-fitted Causal Forests 
 
-This package implements a causal forest (Wager and Athey, 2018) learned (cross-fitted) with training and holdout data, fit over K folds, as in Hatamyar and Kreif (2022). 
-Forests are estimated with all but i folds, then estimates are predicted for the holdout (ith) fold. 
-This is repeated a specified number of times and the results are averaged across folds.
+This package implements a causal forest (Wager and Athey, 2018) learned (cross-fitted) with training and holdout data, fit over K folds, as in Hatamyar and Kreif (2023). 
+Forests are estimated with all K-1 folds, then estimates are predicted for the holdout (kth) fold. This is done K times with each fold used as the holdout fold once.
+This is repeated a specified number of times and the results are averaged across folds and repetitions. See Hatamyar and Kreif (2023) for further details. 
 
 
 ## Installation
