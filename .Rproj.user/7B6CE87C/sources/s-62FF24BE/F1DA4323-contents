@@ -1,0 +1,15 @@
+Package: CFCF
+Type: Package
+Title: Cross-Fitted Causal Forests
+Version: 0.1.0
+Author: Julia Hatamyar
+Maintainer: Julia Hatamyar <julia.hatamyar@york.ac.uk>
+Description: Causal forest learned (cross-fitted) with training and holdout data, 
+    fit over K folds. Forests are estimated with all but i folds, 
+    then estimates are predicted for the holdout (ith) fold. 
+    This is repeated a specified number of times and the results are averaged across folds.
+License: CC
+Encoding: UTF-8
+Imports: stats, foreach, grf
+LazyData: true
+RoxygenNote: 7.1.2
