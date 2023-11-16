@@ -8,3 +8,5 @@ importFrom(grf,regression_forest)
 importFrom(stats,predict)
 importFrom(stats,quantile)
 importFrom(stats,runif)
+
+export(CFCF)
