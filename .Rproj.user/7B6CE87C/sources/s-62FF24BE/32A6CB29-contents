@@ -1,5 +1,0 @@
-importFrom(stats, foreach, grf)
-
-exportPattern("^[[:alpha:]]+")
-
-

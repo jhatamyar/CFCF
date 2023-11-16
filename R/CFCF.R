@@ -27,8 +27,7 @@
 #'
 #' Note that the 'alpha' and 'honesty.fraction' parameters within the causal forest function
 #' will be tuned within the training step, see documentation for grf package
-
-
+#' @export
 CFCF <- function(X, Y, W,
                               K = 5,
                               reps = 4,

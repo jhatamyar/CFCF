@@ -1,5 +1,0 @@
-importFrom(stats, predict, quantile, runif, foreach, grf)
-
-exportPattern("^[[:alpha:]]+")
-
-
